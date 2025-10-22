@@ -1,8 +1,5 @@
 # Sofle
 
-- [Chinese](README.md)
-- [English](README_EN.md)
-
 ## Update List
 
 - 2024/12/21
@@ -15,8 +12,7 @@
   2. This month, I also updated the ultra-thin versions of the corne and sofle cases. The frame and base plate have been thickened, and the opening of the reset switch has been adjusted, so that the reset switch can be easily pressed. At present, we are still conceptualizing how to design the shell with an inclined bracket.If you have carefully examined a PCB, you will notice that there are reserved interfaces for expansion IO. I wonder if anyone has been able to utilize them,I will try it！
   3. The GIF animations on the right-hand keyboard screen have been removed, which will significantly reduce the power consumption of the right-hand keyboard.
 
-> If your  sofle was updated before 2025/8/22, please update to the latest firmware.
->
+> If your sofle was updated before 2025/8/22, please update to the latest firmware.
 
 ## Contact Me
 
