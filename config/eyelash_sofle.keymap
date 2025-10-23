@@ -71,7 +71,7 @@
 &none       &none      &none   &none   &none   &none     &none  &none      &kp N7  &kp N8  &kp N9   &kp BSPC   &kp F12
 &none       &kp TILDE  &none   &none   &none   &none     &none  &none      &kp N4  &kp N5  &kp N6   &kp FSLH   &kp LS(STAR)
 &none       &none      &none   &none   &none   &none     &none  &kp EQUAL  &kp N1  &kp N2  &kp N3   &kp MINUS  &kp LS(PLUS)
-&kp C_MUTE  &trans     &trans  &trans  &none   &trans    &none  &trans     &mo 3   &kp N0  &kp DOT  &kp RET
+&kp C_MUTE  &trans     &trans  &trans  &none   &trans    &none  &trans     &none   &kp N0  &kp DOT  &kp RET
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -104,5 +104,12 @@
         };
     };
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        show_settings {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 };
