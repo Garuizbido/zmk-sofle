@@ -71,7 +71,7 @@
 &none       &none      &none   &none   &none   &none     &none  &none      &kp N7  &kp N8  &kp N9   &kp BSPC   &kp F12
 &none       &kp TILDE  &none   &none   &none   &none     &none  &none      &kp N4  &kp N5  &kp N6   &kp FSLH   &kp LS(STAR)
 &none       &none      &none   &none   &none   &none     &none  &kp EQUAL  &kp N1  &kp N2  &kp N3   &kp MINUS  &kp LS(PLUS)
-&kp C_MUTE  &trans     &trans  &trans  &none   &trans    &none  &trans     &none   &kp N0  &kp DOT  &kp RET
+&kp C_MUTE  &trans     &trans  &trans  &trans  &trans    &none  &trans     &trans  &kp N0  &kp DOT  &kp RET
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -80,11 +80,11 @@
         Raise {
             display-name = "Raise";
             bindings = <
-&none  &none  &none  &none  &none  &none     &none  &none      &none     &none     &none      &none      &kp BSPC
-&none  &none  &none  &none  &none  &none     &none  &kp PG_UP  &kp END   &kp UP    &kp HOME   &kp MINUS  &kp EQUAL
-&none  &none  &none  &none  &none  &none     &none  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LBKT   &kp RBKT
-&none  &none  &none  &none  &none  &none     &none  &kp INS    &none     &none     &none      &none      &none
-&none  &none  &none  &none  &none  &trans    &none  &trans     &none     &none     &none      &none
+&none  &none  &none  &none  &none   &none     &none  &none      &none     &none     &none      &none      &kp BSPC
+&none  &none  &none  &none  &none   &none     &none  &kp PG_UP  &kp END   &kp UP    &kp HOME   &kp MINUS  &kp EQUAL
+&none  &none  &none  &none  &none   &none     &none  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LBKT   &kp RBKT
+&none  &none  &none  &none  &none   &none     &none  &kp INS    &none     &none     &none      &none      &none
+&none  &none  &none  &none  &trans  &trans    &none  &trans     &trans    &none     &none      &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -97,7 +97,7 @@
 &none      &bt BT_CLR      &bt BT_CLR_ALL  &none         &out OUT_BLE  &out OUT_USB    &none  &none  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none  &none  &none
 &none      &none           &none           &none         &none         &none           &none  &none  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none  &none  &none
 &none      &studio_unlock  &none           &none         &none         &none           &none  &none  &rgb_ug RGB_SPD  &rgb_ug RGB_SPD  &none  &none  &none
-&none      &none           &none           &none         &none         &none           &none  &none  &none            &none            &none  &none
+&none      &none           &none           &none         &trans        &none           &none  &none  &trans           &none            &none  &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
