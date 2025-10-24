@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '`', s: '~'}
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
   - A
   - S
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
   - Sft+*
   - {t: '7', s: '&'}
@@ -90,8 +90,8 @@ layers:
   - )
   - {t: '-', s: _}
   - {t: '=', s: +}
+  - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - {t: '4', s: $}
@@ -156,7 +156,7 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
