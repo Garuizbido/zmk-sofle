@@ -304,7 +304,7 @@ layers:
   - '&studio_unlock'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Base, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Gaming, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB HUD
