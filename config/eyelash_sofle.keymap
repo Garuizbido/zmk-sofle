@@ -107,8 +107,8 @@
         compatible = "zmk,conditional-layers";
 
         show_settings {
-            if-layers = <4 2>;
-            then-layer = <5>;
+            if-layers = <2 3>;
+            then-layer = <4>;
         };
     };
 };
